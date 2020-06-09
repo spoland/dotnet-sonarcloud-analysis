@@ -1,5 +1,5 @@
 name: 'dotnet-sonarcloud-analysis'
-description: 'Run sonar scanner analysis'
+description: 'Run sonar scanner analysis on a dotnet core solution and collect opencover reports'
 inputs:
   project-key:
     description: 'Specifies the key of the analyzed project in SonarCloud'
