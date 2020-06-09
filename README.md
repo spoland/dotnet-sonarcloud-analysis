@@ -1,6 +1,6 @@
 # dotnet sonarscanner
 
-This action uses the dotnet sonarscanner tool to scan a solution and collect coverage data. It was created with a specific use case in mind so version 1 has some requirements:
+This action uses the dotnet sonarscanner tool to scan a solution and collect coverage data. It was created with a specific use case in mind so the current version has some requirements:
 
 * The sln file must exist in the root of the repository.
 * A [coverlet](https://github.com/coverlet-coverage/coverlet) settings file should exist in the root of the repository, setting the coverage report format to opencover.
