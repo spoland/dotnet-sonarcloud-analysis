@@ -1,4 +1,4 @@
-name: 'dotnet-sonarcloud'
+name: 'dotnet-sonarcloud-analysis'
 description: 'Run sonar scanner analysis'
 inputs:
   project-key:
