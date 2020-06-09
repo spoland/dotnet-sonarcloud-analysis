@@ -1,0 +1,24 @@
+name: 'dotnet-sonarscanner'
+description: 'Run sonar scanner analysis'
+inputs:
+  project-key:
+    description: 'Specifies the key of the analyzed project in SonarCloud'
+    required: true
+  sonar-organization:
+    description: 'Specifies the SonarCloud organization'
+    required: true
+  sonar-host-url:
+    description: 'Specifies the access token to authenticate with to SonarCloud'
+    required: true
+  opencover-reports-paths:
+    description: 'Path to OpenCover coverage reports'
+    required: false
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.project-key }}
+    - ${{ inputs.sonar-host-url }}
+    - ${{ inputs.sonar-organization }}
+    - ${{ inputs.opencover-reports-paths }}
