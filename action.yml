@@ -22,3 +22,7 @@ runs:
     - ${{ inputs.sonar-host-url }}
     - ${{ inputs.sonar-organization }}
     - ${{ inputs.opencover-reports-paths }}
+    
+branding:
+  icon: 'check-circle'
+  color: 'green'
