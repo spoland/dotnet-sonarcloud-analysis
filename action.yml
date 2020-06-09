@@ -12,7 +12,7 @@ inputs:
     required: true
   opencover-reports-paths:
     description: 'Path to OpenCover coverage reports'
-    required: false
+    required: true
 
 runs:
   using: 'docker'
