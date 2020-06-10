@@ -36,7 +36,7 @@ This action uses the dotnet sonarscanner tool to scan a solution and collect cov
 
 ``` yaml
   name: dotnet-sonarscanner
-  uses: spoland/dotnet-sonarscanner@v1
+  uses: spoland/dotnet-sonarcloud-analysis@v1.0
   with:
     project-key: your-project-key
     sonar-host-url: https://sonarcloud.io
