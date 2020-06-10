@@ -1,4 +1,4 @@
-# dotnet sonarscanner
+# .NET SonarScanner analysis
 
 This action uses the dotnet sonarscanner tool to scan a solution and collect coverage data. It was created with a specific use case in mind so the current version has some requirements:
 
