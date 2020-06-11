@@ -29,7 +29,7 @@ This action uses the dotnet sonarscanner tool to scan a solution and collect cov
 
 ## Environment variables
 
-* `SONAR_TOKEN` - An authorization token that can be created under the ['My Account'](https://sonarcloud.io/account/security) section of SonarCloud. Should be added as a secret and accessed as per the example.
+* `SONAR_TOKEN` - An authorization token that can be created under the ['My Account'](https://sonarcloud.io/account/security) section of SonarCloud. Should be added as a [secret](https://help.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets) and accessed as per the example.
 * `GITHUB_TOKEN` - GitHub Token
 
 ## Example usage
